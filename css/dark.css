@@ -15,6 +15,10 @@
     border-radius: 5rem;
 }
 
+.dark #modo{
+    color: rgb(0, 0, 0);
+}
+
 .dark .heading{
     text-align: center;
     margin:0 6rem;

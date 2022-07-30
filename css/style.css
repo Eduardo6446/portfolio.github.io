@@ -304,6 +304,11 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+
+#modo{
+    color: rgb(219, 219, 219);
+}
+
 .contact .row{
     display: flex;
     align-items: center;
