@@ -1,0 +1,92 @@
+#modo{
+    width: 30px;
+    font-size: 15px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dark html::-webkit-scrollbar-track{
+    background:rgb(255, 255, 255);
+}
+
+/*lado derecho*/
+
+/*home*/
+.dark .home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+    background: #e4e4e4;
+}
+
+.dark .home h3{
+    font-size: 2.5rem;
+    color:rgb(0, 0, 0);
+}
+
+.dark .home h1{
+    color: rgb(0, 0, 0);
+}
+
+.dark .home h3{
+    font-size: 2.5rem;
+    color:rgb(0, 0, 0);
+}
+
+.dark .home h1{
+    font-size:5rem;
+    color:rgb(0, 0, 0);
+}
+
+.dark .home h1 span{
+    color:var(--blue);
+}
+
+.dark .home p{
+    font-size:2rem;
+    color:rgb(0, 0, 0);
+    padding: 1rem 0;
+}
+
+/**/
+
+/*lado izquierdo*/
+
+.dark header{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;
+    width:35rem;
+    background:#c2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.dark header .user .name{
+    font-size: 3.5rem;
+    color:rgb(0, 0, 0);
+}
+
+.dark header .user .post{
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+}
+
+.dark header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:var(--blue);
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.dark header .navbar ul li a:hover{
+    background:var(--blue);
+}
