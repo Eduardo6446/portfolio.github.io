@@ -5,8 +5,15 @@
     cursor: pointer;
 }
 
-.dark html::-webkit-scrollbar-track{
-    background:rgb(255, 255, 255);
+
+.dark .btn{
+    padding:.7rem 3rem;
+    background:var(--blue);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
 }
 
 /*lado derecho*/
@@ -48,6 +55,69 @@
     color:rgb(0, 0, 0);
     padding: 1rem 0;
 }
+/**/
+
+/*about*/
+
+.dark .about{
+    background: #e4e4e4;
+}
+
+.dark .about .heading{
+    color: rgb(0, 0, 0);
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.about .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color:var(--blue);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.dark .about .row .info h3 span{
+    color:rgb(0, 0, 0);
+    padding:0 .5rem;
+}
+
+.about .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dark .about .row .counter .box{
+    width:20rem;
+    background:#e4e4e4;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.dark .about .row .counter .box span{
+    font-size: 4rem;
+    color:var(--blue);
+}
+
+.dark .about .row .counter .box h3{
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+}
+
+/**/
 
 /**/
 
