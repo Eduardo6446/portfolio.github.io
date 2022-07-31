@@ -15,6 +15,18 @@
     border-radius: 5rem;
 }
 
+.dark #menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:transparent;
+    color:rgb(58, 58, 58);
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
 .dark #modo{
     color: rgb(0, 0, 0);
 }
@@ -272,3 +284,74 @@
 .dark header .navbar ul li a:hover{
     background:var(--blue);
 }
+
+
+/* media queries  */
+
+@media (max-width:1200px){
+
+    .dark html{
+        font-size: 55%;
+    }
+
+    .dark .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   .dark header{
+       left:-120%;
+   }
+
+   .dark #menu{
+       display: block;
+   }
+
+   .dark header.toggle{
+    left:0%;
+   }
+
+   .dark body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    .dark html{
+        font-size: 50%;
+    }
+ 
+ }
+
+@media (max-width:400px){
+
+    .dark header{
+        width: 100vw;
+    }
+
+    .dark .heading{
+        margin:0 3rem;
+    }
+
+    .dark .about .row .counter .box{
+        width: 100%;
+    }
+ 
+    .dark .education .box-container .box{
+        width:100%;
+    }
+
+    .dark .portfolio .box-container .box{
+        width:100%;
+    }
+
+    .dark .contact .row form{
+        margin:3rem 0;
+    }
+
+ }
